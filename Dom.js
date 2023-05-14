@@ -42,3 +42,16 @@ console.log(container1)
 /*BY QuerySelectorALL( ), following the container in the above code, this method returns  a collection of all the elements that ar sharing that selector/tagName as an array of NodeLit, for Example- if we have more than one container*/
 const container2 = document.querySelectorAll('.container')
 console.log(container2)
+
+/*************************************************************************************************************************/
+ 
+
+
+//STYLIND THE DOCUMENT
+const list_Items = document.getElementsByClassName('list-items')
+console.log(list_Items)
+for(let i=0; i<=list_Items.length; i++){
+  list_Items[i].style.fontSize= '1.5rem'
+  list_Items[i].style.color= 'wheat'
+  list_Items[i].style.backgroundColor= '#008B8B'
+}
