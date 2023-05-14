@@ -77,5 +77,5 @@ li.classList.add("list-items") // use classList.remove () to remove it
 // console.log(li.classList.contains("list-items")), to see if an element contains a specific className
 
 
-/// N A V I G A T I N G        THE        D O M
+/// N A V I G A T I N G      THE        D O M
  
